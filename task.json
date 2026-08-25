@@ -50,8 +50,8 @@
   "tasks": [
     {
       "board": "SylvesterGallai",
-      "id": "unposted",
-      "taskUrl": "unposted",
+      "id": "01a03b0c-d28c-72d1-ae04-2708ea8e6717",
+      "taskUrl": "https://problem.market/tasks/01a03b0c-d28c-72d1-ae04-2708ea8e6717",
       "title": "The Sylvester–Gallai theorem in Lean — a non-collinear finite point set has an ordinary line",
       "statementFile": "SylvesterGallai.lean",
       "theorem": "SylvesterGallai.sylvester_gallai",
