@@ -16,20 +16,36 @@
   ],
   "additionalDependenciesAllowed": false,
   "prerequisites": {
-    "tools": ["elan", "git", "python3"],
+    "tools": [
+      "elan",
+      "git",
+      "python3"
+    ],
     "freeDiskGB": 8
   },
   "statementLocked": true,
   "winConditions": {
     "statementUnchanged": true,
     "buildsClean": true,
-    "allowedAxioms": ["propext", "Classical.choice", "Quot.sound"],
-    "forbidden": ["sorry", "admit", "native_decide"]
+    "allowedAxioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "forbidden": [
+      "sorry",
+      "admit",
+      "native_decide"
+    ]
   },
-  "protectedPaths": [".github/"],
+  "protectedPaths": [
+    ".github/"
+  ],
   "preflight": "./preflight.sh",
   "selfCheck": "./verify.sh SylvesterGallai",
-  "setup": ["lake exe cache get"],
+  "setup": [
+    "lake exe cache get"
+  ],
   "$comment_tasks": "One entry per board. criteriaCommit is the commit the posted task pins; the statement is compared against it, not against main. id/taskUrl are filled when the board is posted.",
   "tasks": [
     {
@@ -39,7 +55,7 @@
       "title": "The Sylvester–Gallai theorem in Lean — a non-collinear finite point set has an ordinary line",
       "statementFile": "SylvesterGallai.lean",
       "theorem": "SylvesterGallai.sylvester_gallai",
-      "criteriaCommit": "PLACEHOLDER"
+      "criteriaCommit": "10956db6e86e319dcf06d55af5b2e5786e00c4f1"
     }
   ],
   "submission": {
